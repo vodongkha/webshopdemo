@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D70018;
+    ;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.logo {
+    position: relative;
+    top: 200px;
+    left: 250px;
+}
+
+
+.login-heading {
+    width: 400px;
+    margin: -115px 55%;
+    background: white;
+    border-radius: 3px;
+
+}
+
+form input {
+    width: 90%;
+    border: 1px solid black;
+    background-color: white;
+    padding: 12px 14px;
+    border-radius: 3px;
+    margin: 15px 0 15px 20px;
+    position: relative;
+    top: 40px;
+    left: 0;
+}
+
+
+button {
+    font-size: 15px;
+    margin-top: 60px;
+    margin-left: 20px;
+    padding: 10px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 90%;
+    background-color: #D70018;
+    color: white;
+}
+
+button:hover {
+    background: rgb(207, 201, 201);
+    color: black;
+}
+
+.or {
+    margin: 40px 80px;
+}
+
+.icons {
+    display: flex;
+    font-size: 25px;
+    margin: 0 155px;
+    justify-content: space-between;
+}
+
+.icons i:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    margin: -20px 0 40px -130px;
+}
+
+.icons i:nth-child(2) {
+    margin: -19px 0 0 10px;
+    font-size: 22px;
+}
+
+.icons i:nth-child(3) {
+    margin: -26px 0 0 25px;
+    font-size: 31px;
+}
+
+
+.icons i:hover {
+    color: rgb(223, 20, 13);
+}
+
+.container {
+    position: relative;
+    height: 55px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.show-btn i {
+    position: absolute;
+    top: 126%;
+    left: 350px;
+}
+
+.showw-btn i {
+    position: relative;
+    top: 12px;
+    left: 350px;
+}
+
+.not-number {
+    padding-bottom: 30px;
+}
